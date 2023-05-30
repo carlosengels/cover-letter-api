@@ -1,5 +1,8 @@
 package coverletter.app.models;
 
+/**
+ * POJO to capture JSON data.
+ */
 public class CoverLetter {
     private String name;
     private String company;
@@ -39,6 +42,7 @@ public class CoverLetter {
         this.position = position;
     }
 
+    //TODO return "Hiring manager if string is blank.
     public String getHiringManager() {
         return hiringManager;
     }
